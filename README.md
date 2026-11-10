@@ -6,7 +6,6 @@ line is cancelled; when a call ends the system writes a **CRM activity** for
 that lead into both the app's own store and a mock external CRM. Call outcomes
 and durations are simulated — there is no real telephony.
 
-**Live app: <https://72.61.214.167.sslip.io>**
 
 > **State is in memory.** The spec explicitly permits this. A server restart or
 > redeploy clears sessions and CRM data; the seeded leads come back
